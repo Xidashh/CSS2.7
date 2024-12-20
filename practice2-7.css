@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#main {
+
+    padding: 226px 158px;
+
+}
+
+#satesto {
+    background: #FFF;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#section {
+    display: flex;
+    padding: 96px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    background: #1B0E0F;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#firstParagrap {
+    color: #002AFE;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+#firstTiTle {
+    color: #181D27;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+
+    letter-spacing: -0.96px;
+}
+
+#firstConteiner {
+    background: #FFF;
+
+    padding: var(--spacing-9xl, 96px) 0px;
+
+    font-family: var(--Font-family-font-family-body, Inter);
+    width: 100%;
+}
+
+#secondParagrap {
+    color: #535862;
+    text-align: center;
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-xl, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-xl, 30px);
+
+}
+
+#secondConteiner {
+
+    max-width: 1280px;
+
+
+}
+
+#firstFoto {
+    width: 400px;
+    height: 362px;
+    vertical-align: middle;
+}
+
+#thirsParagrap {
+    color: #6941C6;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    align-self: stretch;
+}
+
+#firstMiniTiTle {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+
+
+#firstMiniConteiner {
+    max-width: 100%;
+    margin-left: 26px;
+    display: inline-block;
+    width: 500px;
+    vertical-align: middle;
+    max-width: 500px;
+    width: 100%;
+}
+
+#natalisTiTle {
+    display: inline-block;
+    color: #535862;
+
+/* Text sm/Regular */
+font-family: var(--Font-family-font-family-body, Inter);
+font-size: var(--Font-size-text-sm, 14px);
+font-style: normal;
+font-weight: 400;
+line-height: var(--Line-height-text-sm, 20px); /* 142.857% */
+}
+
+#firstMiniParagrap {
+color: #535862;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+}
